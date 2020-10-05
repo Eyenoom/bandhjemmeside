@@ -1,0 +1,48 @@
+body {
+    margin: none;
+    padding: none;
+}
+
+.menu__logo {
+    width: 20px;
+}
+
+@media screen and (min-width: 100px) {
+
+}
+
+
+@media screen and (min-width: 1500px) {
+
+    
+main {
+    background: url(assets/backgroundimg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.landing__quote {
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+    color: #ffffff;
+    top: 500px;
+}
+
+.map__map {
+    width: 20px;
+}
+
+}
+
+/*.background-image {
+    max-width: 100%;
+    object-fit: cover;
+}                       
+
+/*
+
+
+
