@@ -1,0 +1,11 @@
+.about {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+}
+
+.about__title {
+    grid-column: 1;
+    text-align: center;
+    font-size: 70px;
+}
