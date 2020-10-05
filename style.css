@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .about {
     display: grid;
     grid-template-columns: 1fr;
@@ -23,7 +28,7 @@
 
 article {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     grid-template-rows: 1fr;
 }
 
@@ -39,7 +44,7 @@ article {
     grid-column: 2/4;
     font-size: 40px;
     align-self: center;
-    margin-left: 20px;
+    margin-left: 30px;
     
 }
 
@@ -54,6 +59,6 @@ article {
     grid-column: 1/3;
     font-size: 40px;
     align-self: center;
-    margin-right: 10px;
+    margin-right: 15px;
     margin-left: 50px;
 }
