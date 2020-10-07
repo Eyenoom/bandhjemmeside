@@ -170,6 +170,9 @@ body {
     font-size: 70px;
     font-family: stencil-std, sans-serif;
     color: #29302D;
+    border-bottom: 2px solid black;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
 article {
