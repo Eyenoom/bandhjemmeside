@@ -458,3 +458,30 @@ article {
 
 
 }
+.hits {
+    background-color: #BEBA8E;
+}
+
+.hits__gridbox {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2%;
+}
+
+.hits__title {
+    font-size: 30px;
+}
+
+.hits__tvbox {
+    position: relative;
+    display: grid;
+    width: 100%;
+}
+
+.hits__youtubeplayer {
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    border-radius: 40px;
+}
