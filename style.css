@@ -1,0 +1,79 @@
+/*Header*/
+
+.menu {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    /*background-image: url(?);*/
+    background-color:#322D29;
+}
+
+.menu__logo { 
+     display: block;
+     margin-left: 30px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     width: 300px;
+     align-self: center;
+}
+
+.menu__links {
+    text-align: right;
+    vertical-align: middle;
+    line-height: 90px;
+    margin-right: 90px; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+}
+
+.menu__link {
+    color: white;
+    font-size: 150%;
+    padding: 10px;
+    grid-row: 1;
+}
+
+
+/*Footer*/
+
+.footer {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    /*background-image: url(https://files.slack.com/files-tmb/T018TT83GF6-F01C7AZ5QE8-51a1e810dd/tr__-baggrund_720.jpg);*/
+    background-color:#322D29;
+}
+
+.social img {
+    width: 50px;
+    padding: 20px;
+}
+
+.footer__contact {
+    font-size: 150%;
+    color:#D2D2D4;
+    grid-column: 1;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.footer__email {
+    font-size: 100%;
+    color:#D2D2D4;
+    margin-left: 30px;
+    grid-column: 1;
+}
+
+.footer__copyright {
+    grid-column: 2/3;
+    font-size: 60%;
+    color: white;
+    justify-self: center;
+
+}
+
+
+.social {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+}

@@ -1,3 +1,5 @@
+/*Header*/
+
 .menu {
     display: grid; 
     grid-template-columns: 1fr 1fr;
@@ -29,6 +31,9 @@
     padding: 10px;
     grid-row: 1;
 }
+
+
+/*Footer*/
 
 .footer {
     display: grid; 
