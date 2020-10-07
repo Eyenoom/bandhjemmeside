@@ -12,6 +12,22 @@ body {
     width: 20px;
 }
 
+.footer__social img {
+    width: 30px;
+}
+
+.hits__tv {
+    width: 20px;
+}
+
+.about__info img {
+    width: 20px;
+}
+
+.map__plane {
+    width: 20px;
+}
+
 .landing {
     background-image: url(assets/band_background-image.jpg);
     background-repeat: no-repeat;
