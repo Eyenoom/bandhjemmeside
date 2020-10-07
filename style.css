@@ -44,7 +44,7 @@ body {
     .about__info {
         grid-column: 1;
         grid-row: 2;
-        font-size: 35px;
+        font-size: 20px;
         margin-top: 20px;
         margin-left: 50px;
         margin-right: 50px;
@@ -60,12 +60,14 @@ body {
         justify-self: center;
         max-width: 100%;
         height: auto;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     
     .about__info--left {
         grid-column: 1;
         grid-row: 4;
-        font-size: 35px;
+        font-size: 20px;
         margin-top: 20px;
         margin-right: 50px;
         justify-self: center;
@@ -131,7 +133,7 @@ body {
         border: 0px solid;
         border-radius: 4%;
         justify-self: center;
-        margin-right: 50px;
+        margin-left: 0;
         max-width: 100%;
         height: auto;
     }
@@ -200,6 +202,7 @@ article {
     grid-row: 2;
     border: 0px solid;
     border-radius: 4%;
+    margin-right: 0;
     margin-left: 50px;
     justify-self: center;
     height: auto;
