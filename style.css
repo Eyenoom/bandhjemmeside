@@ -1,7 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
     min-width: 300px;
 }
 
@@ -396,6 +399,7 @@ article {
     z-index: -1;
     position: absolute;
     top: 0px;
+    display: none;
 }
 
 audio {
@@ -421,6 +425,7 @@ audio {
         display: grid;
         justify-self: center;
     }
+
 
     .hits__songtitle {
         font-size: 35px;
@@ -462,6 +467,7 @@ audio {
     .hits__tv {
         z-index: 0;
         position: static;
+        display: inline;
     }
 }
 
