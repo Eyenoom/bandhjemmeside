@@ -38,7 +38,7 @@ body {
     
     .menu__link {
         color: #ffffff;
-        font-size: 4vw;
+        font-size: 5vw;
         padding: 4px;
         text-decoration: none;
     }
@@ -65,7 +65,7 @@ body {
 }
 
 .menu__link {
-    font-size: 150%;
+    font-size: 190%;
     padding: 10px;
     
 }
@@ -93,7 +93,7 @@ body {
     }
     
     .menu__link {
-        font-size: 200%;
+        font-size: 230%;
         padding: 20px;
     }
     }
