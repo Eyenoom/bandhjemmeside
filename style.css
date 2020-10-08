@@ -434,11 +434,13 @@ audio {
     audio {
         width: 100%;
         justify-self: center;
+        width: 70vw;
     }
 
     .hits__youtubeplayer {
         padding: 10%;
         justify-self: center;
+        max-width: 70vw;
     }
 }
 
@@ -450,6 +452,10 @@ audio {
         padding: 2%;
     }
     
+    .hits__songtitle {
+        font-size: 20px;
+    }
+
     .hits__tvbox {
         position: relative;
         display: grid;
