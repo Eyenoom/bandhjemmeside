@@ -391,7 +391,7 @@ article {
 }
 
 .hits__title {
-    font-size: 6vw;
+    font-size: 70px;
     font-family: stencil-std, sans-serif;
     justify-self: center;
 }
@@ -413,6 +413,12 @@ audio {
         display: grid;
         grid-template-columns: 1fr;
         justify-content: space-around;
+    }
+
+    .hits__title {
+        font-size: 6vw;
+        font-family: stencil-std, sans-serif;
+        justify-self: center;
     }
 
     .hits__music {
